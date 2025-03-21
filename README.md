@@ -19,6 +19,7 @@ Fraud reporting capability
 
 2. Batch Fraud Detection API (batch_api.py)
 Processes multiple transactions in a single request.
+
 Endpoints:
 
 POST /batch-fraud-detection: Analyzes multiple transactions for fraud patterns
@@ -48,12 +49,12 @@ Setup
 
 Clone the repository
 
-bashCopygit clone https://github.com/yourusername/fraud-detection-system.git
+bash Copygit clone https://github.com/yourusername/fraud-detection-system.git
 cd fraud-detection-system
 
 Create a virtual environment
 
-bashCopypython -m venv venv
+bash Copypython -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install required packages
@@ -62,25 +63,25 @@ bashCopypip install -r requirements.txt
 
 Generate sample data
 
-bashCopypython generate_data.py
+bash Copypython generate_data.py
 Usage
 Running the Dashboard
-bashCopystreamlit run streamlit_app.py
+bash Copystreamlit run streamlit_app.py
 Access the dashboard at http://localhost:8501
 Running the APIs
 In separate terminal windows:
 
 Batch API
 
-bashCopypython batch_api.py
+bash Copypython batch_api.py
 
 Real-Time API
 
-bashCopypython realtime_api.py
+bash Copypython realtime_api.py
 
 Reporting API
 
-bashCopypython reporting_api.py
+bash Copypython reporting_api.py
 API Documentation
 After starting the APIs, access their interactive documentation:
 
